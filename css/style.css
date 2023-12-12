@@ -1,16 +1,19 @@
+/* Import Google Fonts */
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
 
+/* Reset and basic styling */
 html, body {
   height: 100%;
   min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  background: #3498db; /* Change background color to a specific color */
+  font-family: 'Gabriela', serif; /* Change font family */
+  font-size: 16px; /* Change font size */
+  color: #fff; /* Change font color */
 }
 
 .wrapper {
@@ -21,7 +24,7 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: linear-gradient(to bottom, #3498db, #2c3e50); /* Change background color to a gradient */
 }
 
 h1, h2 {
@@ -56,7 +59,7 @@ p {
 }
 
 a {
-  color: black;
+  color: #0a0909; /* Change link color */
   text-decoration: none;
 }
 
@@ -84,3 +87,4 @@ a:hover {
     width: 95%;
   }
 }
+
